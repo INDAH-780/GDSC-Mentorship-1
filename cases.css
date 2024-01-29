@@ -1,0 +1,309 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.977);
+}
+.head{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #1b1b32;
+    border-bottom: 5px solid orangered;
+    align-items: center;
+    height: 70px;
+    
+}
+.head ul{
+    text-decoration: none;
+    display: flex;
+    margin: 0 200px;
+}
+.head ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+   
+}
+.head a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
+}
+.logo {
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.head h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 17px;
+}
+h1{
+    align-items: center;
+    color: #fff;
+    margin-left: 40%;
+}
+.lif{
+    align-items: center;
+}
+.animated{
+    content: '';
+    display: block;
+    height: 4px;
+    left: 0;
+    margin: 0 auto 0 auto;
+    position: relative;
+    right: 0;
+    width: 75px;
+    background-color: #009e66;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+.case{
+    display:flex;
+    width: 205vh;
+    height: 800px;
+    flex-wrap: wrap;
+   /* justify-content: space-between;*/
+    
+}
+/*
+.lif h4{
+    margin-left: 500px;
+    color: #fff;
+    font-family: monospace;
+}
+*/
+.lif h2{
+    margin-left: 550px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: "cursive";
+    
+}
+/*.famile{
+    background-image: 
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('11921934.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    margin:40px 0px;
+    padding-bottom: 70px;
+    height: 400px;
+    width: 300px;
+    /*border-radius: 5px;
+    text-align: center;
+    color: white;
+    
+}
+.injury{
+    background-image: 
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('11921934.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    margin:40px 0px;
+    padding-bottom: 70px;
+    height: 300px;
+    width: 300px;
+    /*border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.crimin{
+    background-image: 
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('11921934.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    margin:40px 0px;
+    padding-bottom: 70px;
+    height: 300px;
+    width: 300px;
+    /*border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.busi{
+    background-image: 
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('11921934.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    margin:40px 0px;
+    padding-bottom: 70px;
+    height: 300px;
+    width: 300px;
+    /*border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.divorce{
+    background-image: 
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('11921934.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    margin:40px 0px;
+    padding-bottom: 70px;
+    height: 300px;
+    width: 300px;
+    /*border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.educa{
+    background-image: 
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('11921934.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    margin:40px 0px;
+    padding-bottom: 70px;
+    height: 300px;
+    width: 300px;
+    /*border-radius: 5px;
+    text-align: center;
+    color: white;
+}*/
+.work-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .work-item {
+    width: 33%;
+  }
+  
+  .overlay-box:nth-child(odd) {
+    order: 1;
+  }
+#famile{
+    background-image: url('Family-Problems-and-Young-Children.jpg');
+}
+#injury{
+    background-image: url('Injury-Case.jpg');
+}
+#crimi{
+    background-image: url('istockphoto-865700152-170667a.jpg');
+}
+#divorce{
+    background-image: url('divorce.jpeg');
+}
+#busi{
+    background-image: url('busi.jpeg');
+}
+#edu{
+    background-image: url('cation.jpg');
+}
+.overlay-box {
+    background-image:url('fam.jpeg');
+  background-color: #f5f5f5;
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  margin: 40px;
+  margin-left: 90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+.overlay-box:hover .desc,
+.overlay-box:focus .desc {
+  opacity: 1;
+}
+
+/* opacity 0.01 for accessibility */
+/* adjust the styles like height,padding to match your design*/
+.overlay-box .desc {
+  opacity: 0.01;
+  /*min-height: 200px;*/
+  font-size: 1rem;
+  height: 300px;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: -20px;
+  /*padding: 30px 25px 10px;*/
+  transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.977);;
+  color: #fff;
+}
+.desc p a{
+    margin-top: 20px;
+    padding: 70px;
+    padding-left: 50px;
+}
+
+/* for footer*/
+footer{
+    background-color: #1b1b32;
+    margin-bottom: 0px;
+}
+.big{
+    display:flex;
+    justify-content: space-between;
+    /*position:relative;
+    /*padding-left: 30px;
+    margin:2px;
+    height: 30%;
+    margin-top: -20px;*/
+
+}
+.links{
+    /*margin-left: 40px;*/
+    width: 400px;
+    
+}
+.area{
+   /* margin-left: 80px;*/
+    width: 400px;
+
+}
+.contact{
+    margin-right: 30px;
+    width: 400px;
+    align-items: center;
+
+}
+.contact h4{
+    margin-left: 80px;
+    color: lightgray;
+}
+.contact h1{
+    margin-left: 80px;
+    font-size: 30px;
+}
+.big h1{
+    font-size: 30px;
+}
+.big ul{
+    text-decoration: none;
+
+    margin: 0 200px;
+}
+.big ul li {
+    /*display: inline-block;*/
+    list-style: none;
+    margin: 0 30px;
+   
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: lightgray;
+}
+.big a:hover{
+    color:rgb(218, 15, 15);
+}
+.copy{
+    margin-left: 40%;
+    color: gainsboro;
+}

@@ -1,0 +1,265 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: white;
+    font-size: medium;
+   /* background-image:
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('house.jpeg');*/
+    background-color:black;
+}
+#more {display: none;}
+.head{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #1b1b32;
+    border-bottom: 5px solid orangered;
+    align-items: center;
+    height: 70px;
+    
+}
+.head ul{
+    text-decoration: none;
+    display: flex;
+    margin: 0 200px;
+}
+.head ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+   
+}
+.head a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
+}
+.logo {
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.head h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 17px;
+}
+h1{
+    align-items: center;
+    color: #fff;
+    margin-left: 40%;
+}
+.contain{
+    display:flex;
+    width: 205vh;
+    height: 700px;
+    justify-content: space-between;
+}
+.container1{
+    display: inline-block;
+    width: 30vw;
+}
+#expe{
+    background-image: 
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('11921934.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    margin:40px 40px;
+    padding-bottom: 70px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.sty{
+    padding: 100px;
+}
+h3{
+    display: inline-block;
+text-transform: uppercase;
+font-family: cursive;
+}
+.con{
+    background-color: blueviolet;
+}
+.container2{
+    display: inline-block;
+    width: 150vw;
+    margin-left: 200px;
+   
+}
+/*#navy{
+    background-color: #1b1b32;
+    height: 500px;
+}*/
+
+#navbar {
+   /* position: fixed;*/
+    min-width: 290px;
+    top: 300px;
+    left: 0px;
+    width: 300px;
+    height: 60%;
+    color: white;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+  }
+  
+  #navbar h4{
+    color:red;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: thin;
+  }
+
+  #main-doc header {
+    text-align: left;
+    margin: 0px;
+  }
+  
+  #navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: white;
+    
+  }
+  
+  #navbar li {
+    color: #1b1b32;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  @media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+   #navbar ul {
+      border: 1px solid;
+      height: 207px;
+    }
+  
+    #navbar {
+      background-color: white;
+      position: absolute;
+      color:white;
+      top: 0px;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 275px;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 270px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+  }
+  .imgf{
+    margin-top: 50px;
+    width: 700px;
+  }  
+  .para{
+    width: 700px;
+  }
+  .para h1{
+    color: red;
+  }
+  /* for footer*/
+footer{
+    background-color: #1b1b32;
+    margin-bottom: 0px;
+    margin-top:150px;
+}
+.big{
+    display:flex;
+    justify-content: space-between;
+    /*position:relative;
+    /*padding-left: 30px;
+    margin:2px;
+    height: 30%;
+    margin-top: -20px;*/
+
+}
+.links{
+    /*margin-left: 40px;*/
+    width: 400px;
+    
+}
+.area{
+   /* margin-left: 80px;*/
+    width: 400px;
+
+}
+.contact{
+    margin-right: 30px;
+    width: 400px;
+    align-items: center;
+
+}
+.contact h4{
+    margin-left: 80px;
+    color: lightgray;
+}
+.contact h1{
+    margin-left: 80px;
+    font-size: 30px;
+}
+.big h1{
+    font-size: 30px;
+}
+.big ul{
+    text-decoration: none;
+
+    margin: 0 200px;
+}
+.big ul li {
+    /*display: inline-block;*/
+    list-style: none;
+    margin: 0 30px;
+   
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: lightgray;
+}
+.big a:hover{
+    color:rgb(218, 15, 15);
+}
+.copy{
+    margin-left: 40%;
+    color: gainsboro;
+}

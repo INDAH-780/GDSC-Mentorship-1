@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='contact.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="head">
+        <img src="logo2-removebg-preview.png" alt="Barrister logo" class="logo">
+        <h2>BARRISTER</h2>
+        <nav>
+            <ul>
+                <li><a href="potfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Practice.html">Practice Area</a></li>
+                <li><a href="cases.html">Cases</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+        </nav>
+    </div> 
+    <div class="con">
+        <div>
+            <h3>CONTACT ME</h3>
+            <p></p>
+            <div class="ehmm">
+                <section>
+                    <img src="location.png" class="logo">
+                </section>
+                <section class="man">
+                    <h4>Address</h4>
+                    <p>245 molyko Buea, Cameroon</p>
+                </section>
+            </div>
+            <div class="ehmm">
+                <section>
+                    <img src="contact.png" class="logo">
+                </section>
+                <section class="man">
+                    <h4>Phone</h4>
+                    <p>+237 67XXXXXXX</p>
+                </section>
+            </div>
+            <div class="ehmm">
+                <section class="pear">
+                    <img src="email.png" class="logo">
+                </section>
+                <section class="man">
+                    <h4>Email</h4>
+                    <p>kriskel@gmail.com</p>
+                </section>
+            </div>
+        </div>
+        <div>
+            <form>
+                <h3>Book an Appointment</h3>
+                <fieldset>
+                    <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+                    <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+                    <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+                  </fieldset>
+                  <label for="bio">
+                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Case Description"></textarea>
+                  </label>
+                </fieldset>
+                <button class="bttn" type="submit" onclick="openPopup()">Submit</button>
+                <div class="popup" id="popup">
+                    <img src="tick.png">
+                    <h2>Thank You</h2>
+                    <p>Your Details has been succesfully submitted</p>
+                    <button class="buttton" onclick="closePopup()">OK!</button>
+
+                </div>
+                <!--
+                <input type="submit" value="Appointment" />
+                -->
+            </form>
+        </div>
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+
+</html>

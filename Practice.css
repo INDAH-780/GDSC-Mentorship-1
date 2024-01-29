@@ -1,0 +1,222 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: darkslateblue;
+    font-size: medium;
+    /*background-image:
+    linear-gradient(to bottom, rgba(20, 6, 63, 0.52), rgba(38, 2, 38, 0.73)),
+    url('house.jpeg');*/
+    background-color: rgb(35, 34, 34);
+}
+.head{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #1b1b32;
+    border-bottom: 5px solid orangered;
+    align-items: center;
+    height: 70px;
+    
+}
+.head ul{
+    text-decoration: none;
+    display: flex;
+    margin: 0 200px;
+}
+.head ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+   
+}
+.head a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
+}
+.logo {
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.head h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 17px;
+}
+h1{
+    align-items: center;
+    color: #fff;
+    margin-left: 40%;
+}
+.container1{
+    display:flex;
+    position:relative;
+    justify-content: space-between;
+    margin:2px;
+    margin: 40px 130px ;
+    height: 30%;
+}
+.container2{
+    display:flex;
+    position:relative;
+    justify-content: space-between;
+    margin:30px;
+    margin: 40px 130px ;
+    height: 30%;
+}
+.style{
+    background-color: rgb(31, 29, 29);
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(202, 195, 195, 0.5);
+    transition: ease-in-out 0.5s;
+    border: 1px solid #4f4d4d;
+}
+.style :hover{
+    transform: translate(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+}
+#family{
+    /*background-color: blueviolet;*/
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 400px;
+}
+#personal{
+   /* background-color: crimson;*/
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 400px;
+}
+#criminal{
+   /* background-color: blueviolet;*/
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 400px;
+}
+#education .edu{
+    height: 200px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left:30px;
+    /*border-radius: 50%;*/
+    shape-outside: circle();
+    clip-path: circle();
+}
+#family .fam{
+    height: 200px;
+    align-items: center;
+    margin-top: 10px;
+    /*border-radius: 50%;*/
+    shape-outside: circle();
+    clip-path: circle(); 
+}
+#personal .pers{
+    height: 200px;
+    align-items: center;
+    margin-top: 10px;
+    /*border-radius: 50%;*/
+    shape-outside: circle();
+    clip-path: circle();
+}
+#criminal .crim{
+    height: 200px;
+    align-items: center;
+    margin-top: 10px;
+    /*border-radius: 50%;*/
+    shape-outside: circle();
+    clip-path: circle();
+}
+#estate .es{
+    height: 200px;
+    align-items: center;
+    margin-top: 10px;
+    /*border-radius: 50%;*/
+    shape-outside: circle();
+    clip-path: circle();
+}
+#business .bus{
+    height: 200px;
+    align-items: center;
+    margin-top: 10px;
+    /*border-radius: 50%;*/
+    shape-outside: circle();
+    clip-path: circle();
+}
+h3{
+    text-transform: uppercase;
+    margin-left: 30%;
+    color: #fff;
+}
+/* for footer*/
+footer{
+    background-color: #1b1b32;
+    margin-bottom: 0px;
+}
+.big{
+    display:flex;
+    justify-content: space-between;
+    /*position:relative;
+    /*padding-left: 30px;
+    margin:2px;
+    height: 30%;
+    margin-top: -20px;*/
+
+}
+.links{
+    /*margin-left: 40px;*/
+    width: 400px;
+    
+}
+.area{
+   /* margin-left: 80px;*/
+    width: 400px;
+
+}
+.contact{
+    margin-right: 30px;
+    width: 400px;
+    align-items: center;
+
+}
+.contact h4{
+    margin-left: 80px;
+    color: lightgray;
+}
+.contact h1{
+    margin-left: 80px;
+    font-size: 30px;
+}
+.big h1{
+    font-size: 30px;
+}
+.big ul{
+    text-decoration: none;
+
+    margin: 0 200px;
+}
+.big ul li {
+    /*display: inline-block;*/
+    list-style: none;
+    margin: 0 30px;
+   
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: lightgray;
+}
+.big a:hover{
+    color:rgb(218, 15, 15);
+}
+.copy{
+    margin-left: 40%;
+    color: gainsboro;
+}

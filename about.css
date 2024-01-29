@@ -1,0 +1,94 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.head{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #1b1b32;
+    border-bottom: 5px solid orangered;
+    align-items: center;
+    height: 70px;
+    
+}
+.head ul{
+    text-decoration: none;
+    display: flex;
+    margin: 0 200px;
+}
+.head ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+   
+}
+.head a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
+}
+.logo {
+    width: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.head h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 17px;
+}
+.eee{
+    display: flex;
+    justify-content: space-around;
+}
+.logos{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.testi{
+    display: flex;
+    justify-content: space-between;
+}
+.haha{
+    display: flex;
+    justify-content: space-evenly;
+}
+.same{
+    /*border: 2px solid white;*/border-radius: 10px;
+    width: 400px;
+    background-color: #0e0e17;
+}
+.ehmm{
+    display: flex;
+}
+.man{
+    margin-left: 30px;
+}
+h3{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    color: red;
+    padding-left: 500px;
+}
+#spec{
+    padding-left: 400px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.about{
+   border-radius: 7px;;
+    width: 500px;
+    box-shadow: white 20px;
+    background-color: #1b1b32;
+}
+.eee img{
+    height: 500px;
+}

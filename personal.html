@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Personal law</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='fam.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="head">
+        <img src="logo2-removebg-preview.png" alt="Barrister logo" class="logo">
+        <h2>BARRISTER</h2>
+        <nav>
+            <ul>
+                <li><a href="potfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Practice.html">Practice Area</a></li>
+                <li><a href="cases.html">Cases</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contain">
+    <div class="container1">
+        <section id="expe">
+            <div class="sty">
+            <h3>25 years of experience in this field</h3>
+            <a class="con">CONTACT US NOW</a>
+            </div>
+        </section>
+        <section id="navy">
+            <nav id="navbar">
+                <h4>RELATED PRACTICE</h4>
+                <ul>
+                  <li><a href="fam.html">Family Law</a></li>
+                  <li><a href="personal.html">Personal Injury</a></li>
+                  <li><a href="business.html">Business Law</a></li>
+                  <li><a href="real.html">Real Estate Law</a></li>
+                  <li><a href="education.html">Education Law</a></li>
+                  <li><a href="criminal.html">Criminal Law</a></li> 
+                </ul>
+              </nav>
+        </section>
+    </div>
+    <div class="container2">
+            <img src="personal.jpeg" alt="family" class="imgf">
+            <div class="para">
+            <h1>PERSONAL INJURY</h1>
+            <p>When you or a family member has been injured in any type of accident caused by the actions or negligence of another party, you may be entitled to collect compensation for your injuries and losses. The road to financial recovery, however, is often obstructed by confusing liability laws and insurance companies looking to escape liability. At the Law Office of James F. White, P.C., we are dedicated to fighting for your rights and to helping you put your life back together following any kind of personal injury incident. </p>
+            <span id="dots">...</span>
+            <span id="more"
+            <h3>Compassionate DeKalb County Injury Lawyers</h3>
+            <p>No matter what type of accident caused your injuries, your main concern should be following your doctors' orders during your physical recovery. In the meantime, our skilled team will go to work in investigating your claim and building a case for full compensation in accordance with all applicable laws. We will consider all possible sources of compensation, and work to hold each liable party responsible for:
+
+                Medical bills and rehabilitation expenses;
+                Lost wages and reduced earning potential;
+                Pain and suffering;
+                Permanent scarring or disfigurement; and
+                Temporary or permanent disability. 
+            
+            Depending on the severity of your injuries and the actions of the responsible party, you may even be entitled to punitive damages in addition to your actual losses. </p>
+        </span>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
+    </div>
+    </div>
+    <script>
+        function myFunction(){
+            var dots = document.getElementById("dots");
+            var moreText =document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+              }
+            } 
+    </script>
+    </body>
+    <!--
+    <footer>
+        <div class="big">
+            <div class="links">
+                <h1>QUICK LINKS</h1>
+                <nav>
+                    <ul>
+                        <li><a href="potfolio.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="Practice.html">Practice Area</a></li>
+                        <li><a href="cases.html">Cases</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="area">
+                <h1>Practice Areas</h1>
+                <nav>
+                    <ul>
+                        <li><a href="fam.html">Family Law</a></li>
+                        <li><a href="business.html">Business Law</a></li>
+                        <li><a href="real.html">Real Estate Law</a></li>
+                        <li><a href="education.html">Education Law</a></li>
+                        <li><a href="criminal.html">Criminal Law</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="contact">
+                <h1>Contact Us</h1>
+                <h4>Office</h4>
+                <h4>Tel: 67XXXXXXX</h4>
+                <h4>Email:Kriskel@gmail.com</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="copy">
+                <p>Copyright &copy; 2023 Potfolio</p>
+        </div>
+    </footer>
+-->
+</html>
